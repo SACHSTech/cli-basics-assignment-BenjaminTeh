@@ -1,1 +1,24 @@
-
+~/cli-basics-assignment-BenjaminTeh$ pwd
+/home/runner/cli-basics-assignment-BenjaminTeh
+~/cli-basics-assignment-BenjaminTeh$ mkdir CLIBasicsFolder
+~/cli-basics-assignment-BenjaminTeh$ ls
+CLIBasicsFolder  README.md  TerminalSession.txt
+~/cli-basics-assignment-BenjaminTeh$ cd CLIBasicsFolder
+~/cli-basics-assignment-BenjaminTeh/CLIBasicsFolder$ touch myfile.txt
+~/cli-basics-assignment-BenjaminTeh/CLIBasicsFolder$ echo Benjamin ICS4U >> myfile.txt
+~/cli-basics-assignment-BenjaminTeh/CLIBasicsFolder$ cat myfile.txt
+Benjamin ICS4U
+~/cli-basics-assignment-BenjaminTeh/CLIBasicsFolder$ cp myfile.txt myfile_copy.txt
+~/cli-basics-assignment-BenjaminTeh/CLIBasicsFolder$ ls
+myfile_copy.txt  myfile.txt
+~/cli-basics-assignment-BenjaminTeh/CLIBasicsFolder$ mv myfile_copy.txt myfile2.txt
+~/cli-basics-assignment-BenjaminTeh/CLIBasicsFolder$ mv myfile2.txt ~
+~/cli-basics-assignment-BenjaminTeh/CLIBasicsFolder$ ls ~
+cli-basics-assignment-BenjaminTeh  _test_runner.py
+myfile2.txt
+~/cli-basics-assignment-BenjaminTeh/CLIBasicsFolder$ cd ..
+~/cli-basics-assignment-BenjaminTeh$ rm ~/cli-basics-assignment-BenjaminTeh/CLIBasicsFolder/myfile.txt
+~/cli-basics-assignment-BenjaminTeh$ rmdir CLIBasicsFolder
+~/cli-basics-assignment-BenjaminTeh$ ls ~
+cli-basics-assignment-BenjaminTeh  _test_runner.py
+myfile2.txt
